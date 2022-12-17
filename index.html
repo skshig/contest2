@@ -4,17 +4,25 @@ Make a sticky navbar as shown in the UI
 Make a flex with info on the left and image on the right as shown in the ui (Again choose image of your choice from google)
 Make a flex box of images, choose image src of your choice, example ( Dogs and cats) (Use flex-wrap as well) -->
 <head>
+    <link rel="stylesheet" href="style.css">
     <body>
         <div class = "container">
-            <div>
-                <h2>Heading 1</h2>
-            </div>
             <div class="text">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+                <h2>Heading 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
-            <div class="image">
-                <img src = "/images/randomimage.jpg"  alt="randomimage">
+                <img src = "/images/randomimage.jpg" width="200px" height="200px" alt="randomimage">
+        </p>
             </div>
+        <h3>Flexbox</h3>
+        <div class="image-grid">
+            <img class="flex-image" src="/images/randomimage.jpg" width="200px" height="200px"/>
+            <img class="flex-image" src="/images/randomimage.jpg" width="200px" height="200px"/>
+            <img class="flex-image" src="/images/randomimage.jpg" width="200px" height="200px"/><br>
+            <img class="flex-image" src="/images/randomimage.jpg" width="200px" height="200px"/>
+            <img class="flex-image" src="/images/randomimage.jpg" width="200px" height="200px"/>
+            <img class="flex-image" src="/images/randomimage.jpg" width="200px" height="200px"/>
+        </div>
         </div>
     </body>
 </head>
